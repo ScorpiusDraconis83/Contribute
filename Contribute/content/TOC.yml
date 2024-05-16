@@ -14,6 +14,8 @@
           href: get-started-setup-local.md
         - name: 3. Make major changes
           href: how-to-write-major-edits.md
+        - name: 4. Create a pull request
+          href: create-pull-request.md
     - name: Process a pull request
       href: process-pull-request.md
     - name: Git and GitHub fundamentals
@@ -22,6 +24,8 @@
       href: hacktoberfest.md
 - name: Review pull requests
   href: how-to-review-pull-request.md
+- name: Provide feedback on content
+  href: provide-feedback.md
 - name: Create GitHub issues
   href: how-to-create-github-issues.md
 - name: Create and manage Collections

@@ -71,9 +71,6 @@ sections:
           - componentType: link
             url: https://www.youtube.com/watch?v=ZQODV8krq1Q
             text: "Watch: Contribute to documentation like a Microsoft Learn Insider"
-          - componentType: link
-            url: https://sdwheeler.github.io/Presentations/contributedocs/slide03/index.html
-            text: "Read: Contribute to documentation like a Microsoft Learn Insider"
       - componentType: card
         title: Technical Writing as a Career
         summary: Learn how to turn your penchant for technical writing into a full-time career.
@@ -93,6 +90,15 @@ sections:
   - componentType: testimonials-section
     title: Meet <span class="text-gradient-purple-blue">inspirational contributors</span> from the community
     cards:
+      - avatarUrl: media/john-aziz.png
+        componentType: testimonial-card
+        name: John Aziz
+        role: Software Engineer
+        feedback: Contributing helped me improve my writing skills, and it helped me believe in myself more and made me braver. I've been able to meet and collaborate with lots of amazing individuals too.
+        link:
+          componentType: link
+          url: https://techcommunity.microsoft.com/t5/microsoft-developer-community/contributor-stories-john-aziz/ba-p/4098543
+          text: Read John's story
       - avatarUrl: media/kristina-devochko.png
         componentType: testimonial-card
         name: Kristina Devochko
@@ -111,15 +117,6 @@ sections:
           componentType: link
           url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-emad-al-mousa/ba-p/3918951?wt.mc_id=contributorstories_techcommunity_blog_cxa
           text: Read Emad's story
-      - avatarUrl: media/samson-amaugo.png
-        componentType: testimonial-card
-        name: Samson Amaugo
-        role: Full-stack web developer and Microsoft MVP
-        feedback: Contributing has been immensely rewarding, as it has allowed me to deepen my understanding of C# and ASP.NET while actively contributing to their ongoing development.  
-        link:
-          componentType: link
-          url: https://techcommunity.microsoft.com/t5/azure-developer-community-blog/contributor-stories-samson-amaugo/ba-p/3881104?wt.mc_id=contributorstories_techcommunity_blog_cxa
-          text: Read Samson's story
     backgroundImage:
         lightImageSrc: /media/home-and-directory/section-testimonials_light.jpg?branch=main
         darkImageSrc: /media/home-and-directory/section-testimonials_dark.jpg?branch=main
@@ -135,9 +132,9 @@ sections:
     title: Frequently asked questions
     questions:
       - question: How do I become a Microsoft Learn contributor?
-        answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, create a collection of content for others to consume, or file a GitHub issue if you spot problems in our content but don't have the tools to fix them yourself.
+        answer: There's more than one way to become a contributor! While editing documentation is the most popular method, you can also answer questions in Microsoft Q&A, leave feedback on documentation and training content, create a collection of content for others to consume, or file a GitHub issue if you spot problems in open-source product documentation but don't have the tools to fix them yourself.
       - question: What accounts do contributors need?
-        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create collections, while a GitHub account allows you to edit our open-source documentation or file an issue about documentation.
+        answer: We recommend having a Microsoft Learn account and a GitHub account. A Microsoft Learn account allows you to contribute to Q&A and create collections, while a GitHub account allows you to edit our documentation or file an issue about open-source product documentation.
       - question: How do I start contributing to Microsoft Learn documentation?
         answer: Check out our contributor guide! Start with the article on [how to get started](https://learn.microsoft.com/contribute/content/?branch=main#how-do-i-start). You'll find a table that guides you to documentation for each contribution type and lists the account you'll need for each option. The contributor guide is your home base for learning how to get up and running as a Microsoft Learn contributor!
       - question: Who contributes to Microsoft Learn?
